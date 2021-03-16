@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'rubocop/turn_yourself_in/cli'
+RuboCop::TurnYourselfIn::CLI.new(ARGV).run
